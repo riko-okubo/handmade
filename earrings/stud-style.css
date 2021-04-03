@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color:darkseagreen;
+}
+
+h1 {
+    color: rgb(249, 252, 184);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 40px;
+}
+
+.contents-item {
+    text-align: center;
+    padding:20px;
+    }
+
+.contents-item img {
+    height:250px;
+    width: auto;
+}
+
+.contents-item p {
+    color:gainsboro;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    padding:40px 10px;
+
+}

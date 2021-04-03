@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color:rgb(102, 193, 205);
+}
+
+h1 {
+    color:lemonchiffon;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 30px;
+    font-size:40px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    padding: 30px;
+    margin: 10px;
+}
+.contents-item {
+    text-align: center;
+    display: inline-flex;
+}
+
+.contents-item img {
+    height: 200px;
+    width: auto;
+    padding-top: 30px;
+}
+
+.contents-item p {
+    color:gainsboro;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+a:hover img {
+    opacity: 0.6;
+}
+
+a {
+    color:dodgerblue ;
+    font-family:'Times New Roman', Times, serif;
+    padding: 40px;
+}

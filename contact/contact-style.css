@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h1 {
+    color:maroon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 40px;
+}
+
+div {
+    margin: 50px;
+}
+
+.comment {
+    font-family: cursive;
+}
+
+.adress {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    margin: 30px;
+    width:fit-content;
+    display: inline-block;
+    border-bottom: solid 2px darkblue;
+}
+
+ul {
+    font-family:cursive;
+    list-style:decimal;
+    display: inline-block;
+}
+li{
+    text-align: left;
+}
+
+a {
+    color:peru;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 60px;
+}

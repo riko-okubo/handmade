@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: coral;
+    padding: 30px;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: midnightblue;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+p {
+    font-family: cursive;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.subject {
+    padding-bottom:30px;
+}
+
+a {
+    color:tomato;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+}

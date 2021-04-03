@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color:rgb(201, 241, 241);
+}
+
+.list h1 {
+    color: darkcyan;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 40px;
+}
+.list {
+    text-align: center;
+}
+.item {
+    display: block;
+    padding-bottom: 30px;
+}
+.item h3 {
+    color: midnightblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.itemlist {
+    list-style:none;
+}
+
+ul {
+    display:inline-block;
+}
+
+.item li {
+    font-family: cursive;
+    text-align: left;
+}
+
+a {
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+}
