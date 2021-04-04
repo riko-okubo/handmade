@@ -1,6 +1,7 @@
 body {
     background-color:rgb(253, 219, 225);
     text-align: center;
+
 }
 
 h1 {
@@ -8,30 +9,31 @@ h1 {
     font-size: 40px;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
-    padding-top: 40px;
+    padding: 40px;
 }
-
-/*.copy-container {
-    text-align: center;
-    color: indianred;
-    font-family: cursive;
-    font-size: 20px;
-}*/
 
 ul {
     list-style: none;
-    padding-left: 0;
+    margin: auto;
 }
+
 li {
-    width:fit-content;
+    width: fit-content;
     height: auto;
     padding: 10px;
-    margin: 10px;
 }
-.contents-item {
-    width:730px;
+
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
     margin: auto;
-    overflow: hidden;
+    padding-bottom: 40px;;
+}
+
+.contents-item {
+    text-align: center;
+    display: inline-flex;
 }
 
 .contents-item li {
@@ -48,7 +50,6 @@ li {
     font-size: 20px;
     text-align: center;
 }
-
 a {
     padding: 50px;
     color: lightcoral;
