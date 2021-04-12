@@ -7,7 +7,8 @@ var imglist = [
     {img: 'Tulip-red.jpg', alt: 'Tulip(red)'},
     {img: 'Tulip-blue.jpg', alt: 'Tulip(blue)'},
     {img: 'Tulip-yellow.jpg', alt: 'Tulip(yellow)'},
-    {img: 'Carnation.jpg', alt: 'Carnation'}
+    {img: 'Carnation.jpg', alt: 'Carnation'},
+    {img: 'camellia-pink1.jpg', alt: 'Camellia(pink)'}
 ];
 
 var src = imglist.length;
@@ -15,10 +16,10 @@ var src = imglist.length;
 document.write("<div class='contents'>");
 for (var i = 0; i < src; i++){
     document.write("<ul class='contents-item'>");
-    document.write("  <li>")
-    document.write("    <img src='" + imglist[i].img +"' >");
-    document.write("    <p>" + imglist[i].alt +"</p>");
-    document.write("  </li>");
+    document.write("<li>")
+    document.write("<img src='" + imglist[i].img +"' >");
+    document.write("<p>" + imglist[i].alt +"</p>");
+    document.write("</li>");
     document.write("</ul>");
 }
 document.write("</div>");

@@ -46,12 +46,12 @@ li {
 }
 .contents-item p {
     color: slategrey;
-    font-family: cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     text-align: center;
 }
 a {
     padding: 50px;
     color: lightcoral;
-    font-family: cursive;
+    font-family:'Times New Roman', Times, serif;
 }
