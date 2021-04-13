@@ -14,7 +14,7 @@ body {
 .header {
     background-color: rgb(252, 186, 7);
     height:60px;
-    font-family: cursive;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: lemonchiffon;
 }
 .header-logo {
@@ -35,14 +35,13 @@ body {
 }
 
 .main {
-    height: 800px;
-    text-align: center;
+    height:auto;
 }
 
 .footer {
     background-color: cornsilk;
     height:100px;
-    font-family: cursive;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 0;
 }
 .footer-logo {
@@ -61,17 +60,16 @@ body {
     cursor: pointer;
 }
 
-
 h1 {
     color: rgb(252, 116, 4);
-    font-family: cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:40px;
     padding-left: 40px;
 }
 
 .copy-container p {
     color: rgb(255, 6, 6);
-    font-family: cursive;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     padding-left: 40px;
 }
@@ -80,25 +78,22 @@ ul {
     list-style: none;
     padding-left: 0;
 }
-.contents li {
-    width: fit-content;
-    height: auto;
-    padding: 30px;
-    margin:10px;
+.contents {
+    margin: auto;
 }
 
-.contents-item {
-    width:700px;
-    margin: auto;
-    overflow: hidden;
+.contents-item ul {
+    float: left;
 }
 .contents-item li {
-    float: left;
+    width:300px;
+    margin: 30px;
+    display:inline-flex;
 }
 
 .contents-item p {
     color: rgb(10, 7, 161);
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 

@@ -9,78 +9,81 @@
     <link rel="stylesheet" href="swiper-Swiper5/package/css/swiper.min.css">
 </head>
 <body>
-    <div class="header">
-        <div class="header-logo">My Page</div>
-        <div class="header-list">
-            <ul>
-                <li>
-                    <a href="introduction/introduction.html">Introduction</a>
-                </li>
-                <li>
-                    <a href="work list/worklist.html">Work List</a>
-                </li>
-            </ul>
-        </div>
-        <input type="button" id="close" value="close" onclick="onClickClose();">
-    </div>
-
-    <div class="main">
-        <div class="copy-container">
-            <h1>My work exhibition</h1>
-            <p>Show off my handmade creations.</p>
-        </div>
-
-
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="earrings/stud-v&p&w-2.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="earrings/stud-sb&w-2.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="earrings/hook-y&o.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="earrings/hook-b&sb&w.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="flowers/rose-red.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="flowers/Tulip-yellow.jpg" alt=""></div>
+    <div class="contaner-fluid">
+        <div class="row">
+            <div class="header">
+                <div class="header-logo">My Page</div>
+                <div class="header-list">
+                    <ul>
+                        <li>
+                            <a href="introduction/introduction.html">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="work list/worklist.html">Work List</a>
+                        </li>
+                    </ul>
+                </div>
+                <input type="button" id="close" value="close" onclick="onClickClose();">
             </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-         </div>
 
-        <!--<div class="swiper">
-                <div class="slide"><img src="earrings/IMG_20200413_105638.jpg" alt="image1"></div>
-                <div class="slide"><img src="earrings/IMG_20200413_104115.jpg" alt="image2"></div>
-                <div class="slide"><img src="earrings/IMG_20200413_111922.jpg" alt="image3"></div>
-                <div class="slide"><img src="earrings/IMG_20200413_112003.jpg" alt="image4"></div>
-        </div>   --> 
+            <div class="main">
+                <div class="col-9">
+                    <div class="copy-container">
+                        <h1>My work exhibition</h1>
+                        <p>Show off my handmade creations.</p>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="earrings/img/stud-v&p&w-2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="earrings/img/stud-sb&w-2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="earrings/img/hook-y&o.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="earrings/img/hook-b&sb&w.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="flowers/rose-red.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="flowers/Tulip-yellow.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
 
-        <div class="contents">
-            <ul class="contents-item">
-                <li>
-                    <a href="earrings/earrings.html">
-                        <img src="IMG_20210318_130813.jpg">
-                    </a>
-                    <p>Earrings</p>
-                </li>
-                <li>
-                    <a href="flowers/flowers.html">
-                        <img src="IMG_20210316_121432.jpg"> 
-                    </a>               
-                    <p>Flowers</p>
-                </li>
-            </ul>
+                <div class="contents">
+                    <ul class="contents-item">
+                        <li>
+                            <div class="col-12 co-md-3">
+                                <a href="earrings/earrings.html">
+                                    <img src="IMG_20210318_130813.jpg">
+                                </a>
+                                <p>Earrings</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col-12 co-md-3">
+                                <a href="flowers/flowers.html">
+                                    <img src="IMG_20210316_121432.jpg"> 
+                                </a>               
+                                <p>Flowers</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-logo">My Page</div>
+                <div class="footer-list">
+                    <ul>
+                        <li>
+                            <a href="contact/contact.html">
+                                <p>Contact</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <script src="swiper-Swiper5/package/js/swiper.min.js"></script>
+            <script src="index.js"></script>
         </div>
     </div>
-    <div class="footer">
-        <div class="footer-logo">My Page</div>
-        <div class="footer-list">
-            <ul>
-                <li>
-                    <a href="contact/contact.html">
-                        <p>Contact</p>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <script src="swiper-Swiper5/package/js/swiper.min.js"></script>
-    <script src="index.js"></script>
 </body>
 </html>
