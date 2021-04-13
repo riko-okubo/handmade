@@ -6,22 +6,19 @@ body {
 h1 {
     color:lemonchiffon;
     font-family:'Times New Roman', Times, serif;
-    text-align: center;
-    padding: 30px;
     font-size:40px;
+    margin: 50px;
 }
 
 ul {
-    list-style: none;
     padding-left: 0;
+    margin: auto;
 }
-li {
-    padding: 30px;
-    margin: 10px;
-}
-.contents-item {
-    text-align: center;
-    display: inline-flex;
+
+.contents-item li {
+    width:300px;
+    margin: 30px;
+    display:inline-flex;
 }
 
 .contents-item img {
@@ -32,7 +29,7 @@ li {
 
 .contents-item p {
     color:gainsboro;
-    font-family: cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
 }
