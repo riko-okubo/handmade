@@ -47,3 +47,53 @@ a {
     font-size: 20px;
     text-align: center;
 }
+
+.modalOpen, .modalClose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(.9);
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.modalContents img {
+    width: 50%;
+    height: auto;
+}
+
+.mask {
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.modal.acutive {
+    opacity: 1;
+    visibility: visible;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+.mask.acutive {
+    opacity: 0.7;
+    visibility: visible;
+}

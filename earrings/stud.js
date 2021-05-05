@@ -24,3 +24,13 @@ for (var i = 0; i < src; i++){
 }
 document.write("</ul>");
 document.write("</div>");
+
+document.getElementById("modalOpen").addEventListener("click", function() {
+    document.getElementById("modal").classList.add("acutive");
+    document.getElementById("mask").classList.add("acutive");
+})
+
+document.getElementById("modalClose").addEventListener("click", function() {
+    document.getElementById("modal").classList.remove("acutive");
+    document.getElementById("mask").classList.remove("acutive");
+})
