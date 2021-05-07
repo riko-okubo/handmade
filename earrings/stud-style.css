@@ -2,7 +2,7 @@ body {
     text-align: center;
     margin: auto;
     background-color:darkseagreen;
-    width: 70%;
+    width: 80%;
 }
 
 h1 {
@@ -22,19 +22,21 @@ a {
 .contents {
     padding-bottom: 40px;
     height:auto;
+    
 }
 
 .contents-item {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    justify-content:center;
 }
 
-.contents-item li {
+.modalOpen {
     margin: 20px;
     width:200px;
+    height: auto;
     text-align: center;
-    margin: 20px;
 }
 
 .contents-item img {
@@ -48,7 +50,7 @@ a {
     text-align: center;
 }
 
-.modalOpen, .modalClose {
+.modalClose {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,9 +70,13 @@ a {
     transition: 0.3s;
 }
 
-.modalContents img {
-    width: 50%;
+.modal img {
+    width: 400px;
     height: auto;
+}
+
+.modal-contents-item {
+    list-style: none;
 }
 
 .mask {
