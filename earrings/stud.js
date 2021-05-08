@@ -13,9 +13,9 @@ var imglist = [
 ] ;
 
 var modalimg = [
-    {img: 'img/stud-b.jpg'},
-    {img: 'img/stud-g.jpg'},
-    {img: 'img/stud-o.jpg'},
+    {img: 'img/stud-b2.jpg'},
+    {img: 'img/stud-g2.jpg'},
+    {img: 'img/stud-o2.jpg'},
     {img: 'img/stud-sb&w-2.jpg'},
     {img: 'img/stud-r&w-2.jpg'},
     {img: 'img/stud-v&p&w-2.jpg'},
@@ -43,7 +43,6 @@ document.write("</ul>");
 document.write("</div>");
 
 document.write("<div class = 'modal' id = 'modal'>")
-// document.write("<img src='" + image +"' >");
 document.write("<a id = 'modalClose' class = 'modalClose'>");
 document.write("close");
 document.write("</a>");
