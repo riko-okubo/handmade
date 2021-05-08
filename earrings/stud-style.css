@@ -26,16 +26,21 @@ a {
 }
 
 .contents-item {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     list-style: none;
-    justify-content:center;
+}
+
+.contents-item li {
+    margin: 20px;
+    width:200px;
+    text-align: center;
+    margin: 20px;
 }
 
 .modalOpen {
-    margin: 20px;
-    width:200px;
-    height: auto;
+    margin:0;
+    padding: 0;
     text-align: center;
 }
 
@@ -71,8 +76,8 @@ a {
 }
 
 .modal img {
-    width: 400px;
-    height: auto;
+    height: 400px;
+    width: auto;
 }
 
 .modal-contents-item {
