@@ -1,4 +1,4 @@
-var imglist = [
+let imglist = [
     {img: 'img/hook-v&p.jpg', alt: 'violet & pink'},
     {img: 'img/hook-y&o.jpg', alt: 'yellow & orange'},
     {img: 'img/hook-b&sb&w.jpg', alt: 'blue & sky blue & white'},
@@ -8,14 +8,22 @@ var imglist = [
 
 let modalimg = [
     {img: 'img/hook-v&p2.jpg'},
+<<<<<<< HEAD
     {img: 'img/hook-y&o2.jpg'},
+=======
+    {img: 'img/hook-y&o.2jpg'},
+>>>>>>> main
     {img: 'img/hook-b&sb&w2.jpg'},
     {img: 'img/hook-v&dp&p2.jpg'},
     {img: 'img/hook-r&o&y2.jpg'}
 ] ;
+<<<<<<< HEAD
 
 let src = imglist.length;
 let image = ""; 
+=======
+var src = imglist.length;
+>>>>>>> main
 
 document.write("<div class='contents'>");
 document.write("<ul class='contents-item' id='open'>");

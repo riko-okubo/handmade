@@ -31,30 +31,25 @@ a {
     height:auto;
 }
 
-.contents-item {
-    display:flex;
-    flex-wrap: wrap;
+#open {
     list-style: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.contents-item li {
-    margin: 20px;
-    width:200px;
+#open li {
     text-align: center;
+    height: 350px;
     margin: 20px;
 }
 
-.modalOpen {
-    margin:0;
-    padding: 0;
-    text-align: center;
-}
-
-.contents-item img {
+#open img {
     height: 200px;
+    width:200px;
 }
 
-.contents-item p {
+#open p {
     color: gainsboro;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
