@@ -9,7 +9,14 @@ h1 {
     color: rgb(249, 252, 184);
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 40px;
+    margin-top:50px;
+}
+
+.message {
+    color:bisque;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 a {
@@ -20,9 +27,8 @@ a {
 }
 
 .contents {
-    padding-bottom: 40px;
+    padding: 30px 0px;
     height:auto;
-    
 }
 
 .contents-item {
