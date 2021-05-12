@@ -19,12 +19,16 @@ ul {
     width:300px;
     margin: 30px;
     display:inline-flex;
+    justify-content: center;
 }
 
 .contents-item img {
-    height: 200px;
-    width: auto;
-    padding-top: 30px;
+    height:200px;
+    box-shadow: 3px 5px 6px gray;
+}
+
+.contents-item img:active {
+    box-shadow: none;
 }
 
 .contents-item p {

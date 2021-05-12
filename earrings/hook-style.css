@@ -45,7 +45,13 @@ a {
 
 .contents-item img {
     height: 200px;
+    box-shadow: 3px 5px 6px gray;
 }
+
+.contents-item img:active {
+    box-shadow: none;
+}
+
 .contents-item p {
     color:gainsboro;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -61,6 +67,7 @@ a {
     color: antiquewhite;
     font-size: 20px;
     border-radius: 5px;
+    text-decoration: underline;
 }
 
 .modal {
