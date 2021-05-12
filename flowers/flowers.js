@@ -41,7 +41,6 @@ for (let i = 0; i < src; i++){
 }
 document.write("</ul>");
 document.write("</div>");
-
 document.write("<div class = 'modal' id = 'modal'>")
 document.write("<a id = 'modalClose' class = 'modalClose'>");
 document.write("close");

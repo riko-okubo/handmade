@@ -15,7 +15,7 @@ h1 {
 .message {
     color:mediumvioletred;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
 
@@ -47,7 +47,13 @@ a {
 
 .contents-item img {
     height: 200px;
+    box-shadow: 2px 5px 6px grey;
 }
+
+.contents-item img:active {
+    box-shadow:none;
+}
+
 .contents-item p {
     color:slategrey;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -63,6 +69,7 @@ a {
     color: antiquewhite;
     font-size: 20px;
     border-radius: 5px;
+    text-decoration: underline;
 }
 
 .modal {
@@ -73,7 +80,7 @@ a {
     z-index: 2;
     opacity: 0;
     visibility: hidden;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .modal img {
