@@ -100,10 +100,12 @@ ul {
 .contents img{
     height:200px;
     width:auto;
+    box-shadow: 2px 5px 6px gray;
 }
 
 a:hover img {
     opacity: 0.6;
+    box-shadow: none;
 }
 
 #close {
