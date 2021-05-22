@@ -19,14 +19,15 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: lemonchiffon;
 }
+
 .header-logo {
     font-size: 20px;
     float: left;
-    padding:15px 40px;
+    padding:15px 20px;
 }
 .header-list li a{
     color: lemonchiffon;
-    font-size: 14px;
+    font-size: 20%;
     list-style: none;
     float:left;
     padding:22px 10px;
@@ -38,6 +39,11 @@ body {
 
 .main {
     height:auto;
+}
+
+small {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:slategray;
 }
 
 .footer {
