@@ -1,0 +1,84 @@
+<link rel="stylesheet" href="order-style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order page</title>
+</head>
+<body>
+    <p>～　注文フォーム　～</p>
+
+    <p>只今、システム調整中です。</p>
+
+    <form>
+    <ul>
+        <li class="form-group">
+          <label class="control-label">お名前</label>
+          <input class="form-control" type="text">
+        </li>
+        <li class="form-group">
+          <label class="control-label">アクセサリータイプ</label>
+          <select class="form-control">
+            <option>-- 選択してください。--</option>
+            <option>ピアス</option>
+            <option>イヤリング</option>
+            <option>ネックレス</option>
+            <option>ヘアゴム</option>
+          </select>
+        </li>
+        <li class="form-group">
+          <label class="control-label">※ピアスを選択した方のみ</label>
+          <select class="form-control">
+            <option>-- 選択してください。--</option>
+            <option>フックタイプ</option>
+            <option>スタッドタイプ</option>
+          </select>
+        </li>
+        <li class="form-group">
+            <label class="control-label">※スタッドタイプのピアスまたはイヤリングを選択した方のみ</label>
+            <select class="form-control">
+                <option>-- 選択してください。--</option>
+                <option>固定型</option>
+                <option>垂れ型</option>
+            </select>
+        </li>
+        <li class="form-group">
+            <label class="control-label">※ネックレスを選択した方のみ</label>
+            <select class="form-control">
+                <option>ネックレスの長さを選択</option>
+                <option>40㎝</option>
+                <option>50㎝</option>
+                <option>60㎝</option>
+            </select>
+        </li>
+        <li class="form-group">
+          <label class="control-label">飾り</label>
+          <select class="form-control">
+            <option>-- 選択してください。--</option>
+            <option>押し花(小)</option>
+            <option>押し花(大)</option>
+            <option>立体押し花</option>
+            <option>立体ワイヤー花</option>
+          </select>
+        </li>
+        <li class="form-group">
+            <label class="control-label">※ワイヤー花の方のみ<br>どのような花を希望ですか？(抽象的でもかまいません。できかねる場合もございます。)</label>
+            <input class="form-control" type="text">
+        </li>
+        <li class="form-group">
+            <label class="control-label">何色、もしくは何色系をご希望ですか？</label>
+            <input class="form-control" type="text">
+        </li>
+        <li class="form-group">
+            <label class="control-label">その他、ご要望やコメント</label>
+            <input class="form-control" type="text">
+        </li>
+
+        <button class="btn btn-default">送信</button>
+        </ul>
+    </form>
+    <script src="order.js"></script>
+</body>
+</html>
